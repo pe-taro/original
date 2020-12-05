@@ -123,9 +123,11 @@ main {
           main .sc2 .container .container1 .swiper-container .swiper-wrapper .swiper-slide img {
             width: 30vw; }
         main .sc2 .container .container1 .swiper-container .swiper-button-prev {
-          background-image: url(../arrows/arrow_left_black.png); }
+          background-image: 
+            
+            url(https://github.com/pe-taro/original/blob/main/arrows/arrow_left_black.png); }
         main .sc2 .container .container1 .swiper-container .swiper-button-next {
-          background-image: url(../arrows/arrow_right_black.png); }
+          background-image: url(https://github.com/pe-taro/original/blob/main/arrows/arrow_right_black.png); }
       main .sc2 .container .container2 {
         width: 40vw;
         padding: 3rem 0; }
