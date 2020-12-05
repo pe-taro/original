@@ -1,0 +1,345 @@
+@import url(sp.css) screen and (max-width: 700px);
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8vh; }
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+header {
+  padding-top: 10px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  color: white; }
+  header .logo .banner img {
+    width: 70vw;
+    position: relative;
+    z-index: 1; }
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; }
+    header ul li {
+      display: none;
+      opacity: 0.9;
+      font-size: 12px;
+      margin-right: 15px; }
+      header ul li span {
+        background-color: #303030;
+        padding: 18px;
+        letter-spacing: 2px; }
+  header .menu-btn {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    z-index: 2;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #707070;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0 rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 100px; }
+  header .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(50, 50, 50, 0.95); }
+  header .menu__item {
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0 0;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 6vw;
+    color: #fff;
+    box-sizing: border-box; }
+    header .menu__item a {
+      text-decoration: none;
+      color: #fff; }
+    header .menu__item a:hover {
+      color: #FF1053; }
+  header .menu {
+    transform: translateX(100vw);
+    transition: all .3s linear; }
+  header .menu.is-active {
+    transform: translateX(0); }
+  header .fixed {
+    position: fixed;
+    padding: 10px 0 0 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #fff; }
+
+main {
+  position: absolute;
+  z-index: -1; }
+  main .sc1 .top {
+    text-align: center; }
+    main .sc1 .top img {
+      width: 90vw;
+      margin: 12rem 1rem; }
+  main .sc2 {
+    background-color: #c0c0c0; }
+    main .sc2 h2 {
+      color: #fff;
+      font-size: 2rem;
+      padding: 2rem 0; }
+    main .sc2 .container1 {
+      padding: 1rem 0; }
+      main .sc2 .container1 h3, main .sc2 .container1 h5 {
+        color: #303030;
+        margin-left: 2rem; }
+      main .sc2 .container1 .swiper-container {
+        width: 100vw; }
+        main .sc2 .container1 .swiper-container .swiper-wrapper {
+          text-align: center; }
+          main .sc2 .container1 .swiper-container .swiper-wrapper .swiper-slide img {
+            width: 80vw; }
+        main .sc2 .container1 .swiper-container .swiper-button-prev {
+          background-image: url(../arrows/arrow_left_black.png); }
+        main .sc2 .container1 .swiper-container .swiper-button-next {
+          background-image: url(../arrows/arrow_right_black.png); }
+  main .container2 {
+    padding: 3rem 0; }
+    main .container2 h3, main .container2 h5 {
+      color: #303030;
+      margin-left: 2rem; }
+    main .container2 .swiper-container {
+      width: 100vw; }
+      main .container2 .swiper-container .swiper-wrapper {
+        text-align: center; }
+        main .container2 .swiper-container .swiper-wrapper .swiper-slide img {
+          width: 80vw; }
+      main .container2 .swiper-container .swiper-button-prev {
+        background-image: url(../arrows/arrow_left_black.png); }
+      main .container2 .swiper-container .swiper-button-next {
+        background-image: url(../arrows/arrow_right_black.png); }
+  main .sc3 h2 {
+    padding: 3rem 0;
+    font-size: 2rem;
+    color: #c0c0c0; }
+  main .sc3 img {
+    width: 90vw;
+    padding: 1rem 0; }
+  main .sc3 .first {
+    margin: 5rem 2rem; }
+    main .sc3 .first h3 {
+      font-weight: normal;
+      text-align: center;
+      padding: 2rem;
+      font-size: 1.5rem; }
+    main .sc3 .first .left {
+      font-size: 1rem;
+      text-align: left; }
+    main .sc3 .first .right {
+      font-size: 0.6rem;
+      text-align: right; }
+  main .sc3 p {
+    color: #303030;
+    font-size: 0.9rem;
+    padding: 1rem 2rem 3rem 2rem; }
+  main .sc4 {
+    background-color: #e0e0e0;
+    padding-bottom: 1rem; }
+    main .sc4 h2 {
+      color: #fff;
+      padding: 3rem 0;
+      font-size: 2rem; }
+    main .sc4 .container {
+      background-color: #fff;
+      text-align: center;
+      margin: 1rem; }
+      main .sc4 .container .box1,
+      main .sc4 .container .box2,
+      main .sc4 .container .box3 {
+        width: 90vw;
+        padding: 1rem 0;
+        text-align: center; }
+        main .sc4 .container .box1 h4,
+        main .sc4 .container .box2 h4,
+        main .sc4 .container .box3 h4 {
+          font-size: 1.5rem;
+          font-weight: normal;
+          padding: 1rem 0 0 0;
+          margin: 0; }
+        main .sc4 .container .box1 img,
+        main .sc4 .container .box2 img,
+        main .sc4 .container .box3 img {
+          width: 50vw;
+          padding: 0.5rem 0 0 0; }
+        main .sc4 .container .box1 .textbox,
+        main .sc4 .container .box2 .textbox,
+        main .sc4 .container .box3 .textbox {
+          width: 80vw;
+          text-align: left;
+          margin: 1rem 2rem; }
+          main .sc4 .container .box1 .textbox p,
+          main .sc4 .container .box2 .textbox p,
+          main .sc4 .container .box3 .textbox p {
+            padding: 1rem 0; }
+        main .sc4 .container .box1 .itembox,
+        main .sc4 .container .box2 .itembox,
+        main .sc4 .container .box3 .itembox {
+          width: 90vw;
+          margin: 0 auto;
+          display: grid;
+          grid-template: ".... .... .... .... .... .... ...." 10px ".... st1  .... st2  .... st3  ...." auto ".... .... .... .... .... .... ...." 10px ".... st4  .... st5  .... st6  ...." auto ".... .... .... .... .... .... ...." 10px ".... st7  .... st8  .... st9  ...." auto ".... .... .... .... .... .... ...." 10px /auto auto auto auto auto auto auto; }
+          main .sc4 .container .box1 .itembox .st1 img,
+          main .sc4 .container .box1 .itembox .st2 img,
+          main .sc4 .container .box1 .itembox .st3 img,
+          main .sc4 .container .box1 .itembox .st4 img,
+          main .sc4 .container .box1 .itembox .st5 img,
+          main .sc4 .container .box1 .itembox .st6 img,
+          main .sc4 .container .box1 .itembox .st7 img,
+          main .sc4 .container .box1 .itembox .st8 img,
+          main .sc4 .container .box1 .itembox .st9 img,
+          main .sc4 .container .box2 .itembox .st1 img,
+          main .sc4 .container .box2 .itembox .st2 img,
+          main .sc4 .container .box2 .itembox .st3 img,
+          main .sc4 .container .box2 .itembox .st4 img,
+          main .sc4 .container .box2 .itembox .st5 img,
+          main .sc4 .container .box2 .itembox .st6 img,
+          main .sc4 .container .box2 .itembox .st7 img,
+          main .sc4 .container .box2 .itembox .st8 img,
+          main .sc4 .container .box2 .itembox .st9 img,
+          main .sc4 .container .box3 .itembox .st1 img,
+          main .sc4 .container .box3 .itembox .st2 img,
+          main .sc4 .container .box3 .itembox .st3 img,
+          main .sc4 .container .box3 .itembox .st4 img,
+          main .sc4 .container .box3 .itembox .st5 img,
+          main .sc4 .container .box3 .itembox .st6 img,
+          main .sc4 .container .box3 .itembox .st7 img,
+          main .sc4 .container .box3 .itembox .st8 img,
+          main .sc4 .container .box3 .itembox .st9 img {
+            width: 30vw; }
+        main .sc4 .container .box1 .st1,
+        main .sc4 .container .box2 .st1,
+        main .sc4 .container .box3 .st1 {
+          grid-area: st1; }
+        main .sc4 .container .box1 .st2,
+        main .sc4 .container .box2 .st2,
+        main .sc4 .container .box3 .st2 {
+          grid-area: st2; }
+        main .sc4 .container .box1 .st3,
+        main .sc4 .container .box2 .st3,
+        main .sc4 .container .box3 .st3 {
+          grid-area: st3; }
+        main .sc4 .container .box1 .st4,
+        main .sc4 .container .box2 .st4,
+        main .sc4 .container .box3 .st4 {
+          grid-area: st4; }
+        main .sc4 .container .box1 .st5,
+        main .sc4 .container .box2 .st5,
+        main .sc4 .container .box3 .st5 {
+          grid-area: st5; }
+        main .sc4 .container .box1 .st6,
+        main .sc4 .container .box2 .st6,
+        main .sc4 .container .box3 .st6 {
+          grid-area: st6; }
+        main .sc4 .container .box1 .st7,
+        main .sc4 .container .box2 .st7,
+        main .sc4 .container .box3 .st7 {
+          grid-area: st7; }
+        main .sc4 .container .box1 .st8,
+        main .sc4 .container .box2 .st8,
+        main .sc4 .container .box3 .st8 {
+          grid-area: st8; }
+        main .sc4 .container .box1 .st9,
+        main .sc4 .container .box2 .st9,
+        main .sc4 .container .box3 .st9 {
+          grid-area: st9; }
+  main .sc5 h2 {
+    padding: 3rem 0;
+    font-size: 2rem;
+    color: #c0c0c0; }
+  main .sc5 .container .box1 {
+    text-align: center; }
+    main .sc5 .container .box1 img {
+      width: 65vw;
+      border-radius: 50%; }
+    main .sc5 .container .box1 h5 {
+      margin: 0.5rem;
+      font-size: 1.1rem; }
+    main .sc5 .container .box1 h6 {
+      margin-top: 0.5rem;
+      font-size: 0.9rem; }
+  main .sc5 .container .box2 {
+    color: #303030;
+    padding: 1rem 2rem;
+    font-size: 0.9rem; }
+  main .sc5 .more {
+    width: 100vw; }
+    main .sc5 .more .accordion-container .accordion-title {
+      position: relative;
+      margin: 0;
+      padding: 0.625em 0.625em 0.625em 2em;
+      background-color: #c0c0c0;
+      font-size: 1.25em;
+      font-weight: normal;
+      color: #fff;
+      cursor: pointer; }
+    main .sc5 .more .accordion-container .accordion-title:hover,
+    main .sc5 .more .accordion-container .accordion-title:active,
+    main .sc5 .more .accordion-title.open {
+      background-color: #707070; }
+    main .sc5 .more .accordion-container .accordion-title::after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-top-color: #fff; }
+    main .sc5 .more .accordion-container .accordion-title.open::after {
+      content: "";
+      position: absolute;
+      top: 15px;
+      border: 8px solid transparent;
+      border-bottom-color: #fff; }
+    main .sc5 .more .accordion-content {
+      text-align: left;
+      padding: 1rem;
+      border: 1px solid #707070; }
+    main .sc5 .more .accordion-container {
+      width: 80vw;
+      margin: 0 auto; }
+  main .sc5 .profilemail {
+    text-align: center; }
+    main .sc5 .profilemail a {
+      color: #303030;
+      text-decoration: none; }
+    main .sc5 .profilemail a:hover {
+      color: #FF1053; }
+    main .sc5 .profilemail h3 {
+      display: inline-block;
+      border: solid #707070;
+      padding: 1rem 2rem; }
+  main .sc6 {
+    background-color: #c0c0c0; }
+    main .sc6 h2 {
+      color: #fff; }
+    main .sc6 .container {
+      width: 100vw;
+      text-align: center; }
+      main .sc6 .container img {
+        width: 30vw; }
+
+/*# sourceMappingURL=sp.css.map */
