@@ -8,6 +8,9 @@ body {
   margin: 0;
   font-family: Circular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 
+main {
+  width: 100%; }
+
 header {
   height: 14vh;
   padding-top: 10px;
@@ -16,7 +19,7 @@ header {
   justify-content: space-between;
   color: white; }
   header .logo .banner img {
-    width: 70vw;
+    max-height: 100px;
     position: relative;
     z-index: 1; }
   header ul {
@@ -52,7 +55,7 @@ header {
     top: 0;
     right: 0;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,7 +77,7 @@ header {
     header .menu__item a:hover {
       color: #FF1053; }
   header .menu {
-    transform: translateX(100vw);
+    transform: translateX(100%);
     transition: all .3s linear; }
   header .menu.is-active {
     transform: translateX(0); }
@@ -107,7 +110,7 @@ main {
         color: #303030;
         margin-left: 2rem; }
       main .sc2 .container1 .swiper-container {
-        width: 100vw; }
+        width: 100%; }
         main .sc2 .container1 .swiper-container .swiper-wrapper {
           text-align: center; }
           main .sc2 .container1 .swiper-container .swiper-wrapper .swiper-slide img {
@@ -122,7 +125,7 @@ main {
       color: #303030;
       margin-left: 2rem; }
     main .container2 .swiper-container {
-      width: 100vw; }
+      width: 100%; }
       main .container2 .swiper-container .swiper-wrapper {
         text-align: center; }
         main .container2 .swiper-container .swiper-wrapper .swiper-slide img {
@@ -272,7 +275,8 @@ main {
   main .sc5 .container .box1 {
     text-align: center; }
     main .sc5 .container .box1 img {
-      width: 65vw;
+      max-width: 300px;
+      margin: 0 auto;
       border-radius: 50%; }
     main .sc5 .container .box1 h5 {
       margin: 0.5rem;
@@ -281,11 +285,13 @@ main {
       margin-top: 0.5rem;
       font-size: 0.9rem; }
   main .sc5 .container .box2 {
+    width: 500px;
+    margin: 0 auto;
     color: #303030;
     padding: 1rem 2rem;
     font-size: 0.9rem; }
   main .sc5 .more {
-    width: 100vw; }
+    width: 100%; }
     main .sc5 .more .accordion-container .accordion-title {
       position: relative;
       margin: 0;
@@ -337,7 +343,7 @@ main {
     main .sc6 h2 {
       color: #fff; }
     main .sc6 .container {
-      width: 100vw;
+      width: 100%;
       text-align: center; }
       main .sc6 .container img {
         width: 30vw; }

@@ -151,8 +151,9 @@ main {
       width: 50vw;
       padding: 1rem 3rem 0 0; }
     main .sc3 .first {
-      text-align: left;
-      margin: 5rem 8rem; }
+      width: 700px;
+      margin: 4rem auto;
+      text-align: left; }
       main .sc3 .first h3 {
         font-weight: normal;
         text-align: center;
@@ -165,6 +166,8 @@ main {
         font-size: 0.8rem;
         text-align: right; }
     main .sc3 p {
+      width: 500px;
+      margin: 0 auto;
       text-align: left;
       color: #303030;
       font-size: 1.2rem;
@@ -178,16 +181,16 @@ main {
       padding: 3rem 0;
       font-size: 2rem; }
     main .sc4 .container {
-      width: 97vw;
+      width: 1000px;
       display: flex;
       justify-content: space-evenly;
       text-align: center;
-      margin: 0.5rem; }
+      margin: 0 auto; }
       main .sc4 .container .box1,
       main .sc4 .container .box2,
       main .sc4 .container .box3 {
-        width: 30vw;
-        margin: 0.5rem 0;
+        width: 100%;
+        margin: 0.5rem 1rem;
         background-color: #fff;
         text-align: center; }
         main .sc4 .container .box1 h4,
@@ -200,25 +203,25 @@ main {
         main .sc4 .container .box1 img,
         main .sc4 .container .box2 img,
         main .sc4 .container .box3 img {
-          width: 15vw;
+          width: 30%;
           padding: 0.5rem 0 0 0; }
         main .sc4 .container .box1 .textbox,
         main .sc4 .container .box2 .textbox,
         main .sc4 .container .box3 .textbox {
-          width: 30vw;
+          width: 100%;
           text-align: left;
-          padding: 1rem;
+          padding: 3rem 1rem;
           font-size: 0.9rem; }
           main .sc4 .container .box1 .textbox p,
           main .sc4 .container .box2 .textbox p,
           main .sc4 .container .box3 .textbox p {
-            width: 26vw;
+            width: 100%;
             padding: 1rem 0;
             font-size: 1.1rem; }
         main .sc4 .container .box1 .itembox,
         main .sc4 .container .box2 .itembox,
         main .sc4 .container .box3 .itembox {
-          width: 30vw;
+          width: 100%;
           margin: 0 auto;
           display: grid;
           grid-template: ".... .... .... .... .... .... ...." 10px ".... st1  .... st2  .... st3  ...." auto ".... .... .... .... .... .... ...." 10px ".... st4  .... st5  .... st6  ...." auto ".... .... .... .... .... .... ...." 10px ".... st7  .... st8  .... st9  ...." auto ".... .... .... .... .... .... ...." 10px /auto auto auto auto auto auto auto; }
@@ -249,7 +252,7 @@ main {
           main .sc4 .container .box3 .itembox .st7 img,
           main .sc4 .container .box3 .itembox .st8 img,
           main .sc4 .container .box3 .itembox .st9 img {
-            width: 10vw; }
+            width: 100%; }
         main .sc4 .container .box1 .st1,
         main .sc4 .container .box2 .st1,
         main .sc4 .container .box3 .st1 {
@@ -286,79 +289,83 @@ main {
         main .sc4 .container .box2 .st9,
         main .sc4 .container .box3 .st9 {
           grid-area: st9; }
-  main .sc5 h2 {
-    padding: 3rem 0;
-    font-size: 2rem;
-    color: #c0c0c0; }
-  main .sc5 .container {
-    display: flex;
-    justify-content: space-around; }
-    main .sc5 .container .box1 {
-      width: 50vw;
-      margin: auto 0;
-      text-align: center; }
-      main .sc5 .container .box1 img {
-        width: 25vw;
-        border-radius: 50%; }
-      main .sc5 .container .box1 h5 {
-        margin: 0.5rem;
-        font-size: 1.1rem; }
-      main .sc5 .container .box1 h6 {
-        margin-top: 0.5rem;
-        font-size: 0.9rem; }
-    main .sc5 .container .box2 {
-      color: #303030;
-      padding: 1rem 2rem;
-      font-size: 0.9rem; }
-  main .sc5 .more {
+  main .sc5 {
     width: 100%; }
-    main .sc5 .more .accordion-container .accordion-title {
-      width: 80vw;
-      position: relative;
-      margin: 0;
-      padding: 0.625em 0.625em 0.625em 2em;
-      background-color: #c0c0c0;
-      font-size: 1.25em;
-      font-weight: normal;
-      color: #fff;
-      cursor: pointer; }
-    main .sc5 .more .accordion-container .accordion-title:hover,
-    main .sc5 .more .accordion-container .accordion-title:active,
-    main .sc5 .more .accordion-title.open {
-      background-color: #707070; }
-    main .sc5 .more .accordion-container .accordion-title::after {
-      content: "";
-      position: absolute;
-      top: 25px;
-      right: 25px;
-      width: 0;
-      height: 0;
-      border: 8px solid transparent;
-      border-top-color: #fff; }
-    main .sc5 .more .accordion-container .accordion-title.open::after {
-      content: "";
-      position: absolute;
-      top: 15px;
-      border: 8px solid transparent;
-      border-bottom-color: #fff; }
-    main .sc5 .more .accordion-content {
-      text-align: left;
-      padding: 1rem;
-      border: 1px solid #707070; }
-    main .sc5 .more .accordion-container {
-      width: 80vw;
-      margin: 0 auto; }
-  main .sc5 .profilemail {
-    text-align: center; }
-    main .sc5 .profilemail a {
-      color: #303030;
-      text-decoration: none; }
-    main .sc5 .profilemail a:hover {
-      color: #FF1053; }
-    main .sc5 .profilemail h3 {
-      display: inline-block;
-      border: solid #707070;
-      padding: 1rem 2rem; }
+    main .sc5 h2 {
+      padding: 3rem 0;
+      font-size: 2rem;
+      color: #c0c0c0; }
+    main .sc5 .container {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      main .sc5 .container .box1 {
+        width: 40%;
+        margin: auto 0;
+        text-align: center; }
+        main .sc5 .container .box1 img {
+          width: 70%;
+          border-radius: 50%; }
+        main .sc5 .container .box1 h5 {
+          margin: 0.5rem;
+          font-size: 1.1rem; }
+        main .sc5 .container .box1 h6 {
+          margin-top: 0.5rem;
+          font-size: 0.9rem; }
+      main .sc5 .container .box2 {
+        width: 60%;
+        color: #303030;
+        padding: 1rem 2rem;
+        font-size: 0.9rem; }
+    main .sc5 .more {
+      width: 100%; }
+      main .sc5 .more .accordion-container .accordion-title {
+        width: 80vw;
+        position: relative;
+        margin: 0;
+        padding: 0.625em 0.625em 0.625em 2em;
+        background-color: #c0c0c0;
+        font-size: 1.25em;
+        font-weight: normal;
+        color: #fff;
+        cursor: pointer; }
+      main .sc5 .more .accordion-container .accordion-title:hover,
+      main .sc5 .more .accordion-container .accordion-title:active,
+      main .sc5 .more .accordion-title.open {
+        background-color: #707070; }
+      main .sc5 .more .accordion-container .accordion-title::after {
+        content: "";
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        width: 0;
+        height: 0;
+        border: 8px solid transparent;
+        border-top-color: #fff; }
+      main .sc5 .more .accordion-container .accordion-title.open::after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        border: 8px solid transparent;
+        border-bottom-color: #fff; }
+      main .sc5 .more .accordion-content {
+        text-align: left;
+        padding: 1rem;
+        border: 1px solid #707070; }
+      main .sc5 .more .accordion-container {
+        width: 80vw;
+        margin: 0 auto; }
+    main .sc5 .profilemail {
+      text-align: center; }
+      main .sc5 .profilemail a {
+        color: #303030;
+        text-decoration: none; }
+      main .sc5 .profilemail a:hover {
+        color: #FF1053; }
+      main .sc5 .profilemail h3 {
+        display: inline-block;
+        border: solid #707070;
+        padding: 1rem 2rem; }
   main .sc6 {
     background-color: #c0c0c0; }
     main .sc6 h2 {

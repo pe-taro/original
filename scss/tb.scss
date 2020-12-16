@@ -3,10 +3,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 8vh; }
-
+  
 
 body {
-  overflow-y:scroll; 
+
 
   margin: 0;
   font-family: Circular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
@@ -33,11 +33,12 @@ header {
   margin: 0 10px;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: $main;
+  background-color: $main;
   .logo {
     .banner {
       img {
-        width: 33vw;
+        max-height: 100px;
         position: relative;
         z-index: 1;
       }
@@ -90,16 +91,16 @@ header {
   top: 0;
   right: 0;
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(50, 50, 50, .95);
+  background: rgb(255, 255, 255);
 }
 .menu__item{
-  width: 100%;
+  max-width: 100%;
   height: auto;
   padding: 50px 0 0 0;
   margin-left: 30px;
@@ -119,7 +120,7 @@ header {
 
 
 .menu{
-  transform: translateX(100vw);
+  transform: translateX(100%);
   transition: all .3s linear;
 }
 
@@ -155,6 +156,7 @@ header {
 
 
 main {
+  width: 100%;
   position: absolute;
   z-index: -1;
 
@@ -181,7 +183,7 @@ main {
   }
 
   .container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
   
@@ -250,8 +252,9 @@ main {
     padding: 1rem 3rem 0 0;
   } 
   .first {
+    width: 500px;
     text-align: left;
-    margin: 5rem 8rem;
+    margin: 5rem auto;
 h3 {
   font-weight: normal;
   text-align: center;
@@ -268,6 +271,8 @@ h3 {
     }
   }
   p {
+    width: 500px;
+    margin: 4rem auto;
     text-align: left;
     color: $sub2;
     font-size: 1.2rem;
@@ -277,7 +282,7 @@ h3 {
 
 
 .sc4 {
-  width: 100vw;
+  width: 100%;
   background-color: $sub0;
   padding-bottom: 1rem;
   h2 {
@@ -286,15 +291,15 @@ h3 {
     font-size: 2rem;
   }
   .container {
-    width: 97vw;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    margin: 0.5rem;
+    // margin: 0.5rem;
     .box1,
     .box2,
     .box3 {
-      width: 30vw;
+      width: 30%;
       margin: 0.5rem 0;
       background-color: $main;
       text-align: center;
@@ -309,7 +314,7 @@ h3 {
         padding: 0.5rem 0 0 0;
       }
       .textbox {
-        width: 30vw;
+        width: 100%;
         text-align: left;
         // margin: 1rem 1rem;
         padding: 1rem;
@@ -322,7 +327,7 @@ h3 {
       }
 
       .itembox {
-        width: 30vw;
+        width: 100%;
 
         .st1,
         .st2,
@@ -334,7 +339,7 @@ h3 {
         .st8,
         .st9 {
           img {
-            width: 10vw; 
+            width: 100%; 
           }
         }
   margin: 0 auto;
@@ -391,13 +396,15 @@ h3 {
   }
 
   .container {
+    max-width: 700px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     .box1 {
-      width: 50vw;
+      width: 40%;
       margin: auto 0;
       img {
-        width: 25vw;
+        width: 70%;
         border-radius: 50%;
       }
       text-align: center;
@@ -411,14 +418,15 @@ h3 {
       }
     }
     .box2 {
+      width: 60%;
       color: $sub2;
-      padding: 1rem 2rem;
+      padding: 1rem 0 1rem 2rem;
       font-size: 0.9rem;
     }
 
   }
   .more {
-    width: 100vw;
+    width: 100%;
 
 
 
@@ -501,7 +509,7 @@ h3 {
     color: $main;
   }
    .container {
-     width: 100vw;
+     width: 100%;
      text-align: center;
      img {
        width: 7vw;
