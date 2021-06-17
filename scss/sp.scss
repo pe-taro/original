@@ -177,6 +177,7 @@ main {
   h2 {
 
     color: $main;
+    margin: 0 2rem;
     font-size: 2rem;
     padding: 2rem 0;
   }
@@ -234,6 +235,7 @@ main {
 
 .sc3 {
   h2 {
+    margin: 0 2rem;
     padding: 3rem 0;
     font-size: 2rem;
     color: $sub1;
@@ -272,6 +274,7 @@ h3 {
   padding-bottom: 1rem;
   h2 {
     color: $main;
+    margin: 0 2rem;
     padding: 3rem 0;
     font-size: 2rem;
   }
@@ -368,6 +371,7 @@ h3 {
 
 .sc5 {
   h2 {
+    margin: 0 2rem;
     padding: 3rem 0;
     font-size: 2rem;
     color: $sub1;
@@ -391,10 +395,10 @@ h3 {
       }
     }
     .box2 {
-      width: 500px;
+      width: 300px;
       margin: 0 auto;
       color: $sub2;
-      padding: 1rem 2rem;
+      padding: 1rem 1rem;
       font-size: 0.9rem;
     }
 
@@ -481,6 +485,7 @@ h3 {
  background-color: $sub1;
  h2 {
    color: $main;
+   margin: 0 2rem;
  }
   .container {
     width: 100%;

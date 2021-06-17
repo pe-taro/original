@@ -106,7 +106,7 @@ main {
     main .sc2 h2 {
       color: #fff;
       font-size: 2rem;
-      margin: 0;
+      margin: 0 2rem;
       padding-top: 2rem; }
     main .sc2 .container {
       width: 100%;
@@ -144,6 +144,7 @@ main {
     text-align: center; }
     main .sc3 h2 {
       text-align: left;
+      margin: 0 2rem;
       padding: 3rem 0;
       font-size: 2rem;
       color: #c0c0c0; }
@@ -178,6 +179,7 @@ main {
     padding-bottom: 1rem; }
     main .sc4 h2 {
       color: #fff;
+      margin: 0 2rem;
       padding: 3rem 0;
       font-size: 2rem; }
     main .sc4 .container {
@@ -292,6 +294,7 @@ main {
   main .sc5 {
     width: 100%; }
     main .sc5 h2 {
+      margin: 0 2rem;
       padding: 3rem 0;
       font-size: 2rem;
       color: #c0c0c0; }
@@ -369,7 +372,8 @@ main {
   main .sc6 {
     background-color: #c0c0c0; }
     main .sc6 h2 {
-      color: #fff; }
+      color: #fff;
+      margin: 0 2rem; }
     main .sc6 .container {
       width: 100%;
       text-align: center; }

@@ -102,6 +102,7 @@ main {
     background-color: #c0c0c0; }
     main .sc2 h2 {
       color: #fff;
+      margin: 0 2rem;
       font-size: 2rem;
       padding: 2rem 0; }
     main .sc2 .container1 {
@@ -135,6 +136,7 @@ main {
       main .container2 .swiper-container .swiper-button-next {
         background-image: url(../arrows/arrow_right_black.png); }
   main .sc3 h2 {
+    margin: 0 2rem;
     padding: 3rem 0;
     font-size: 2rem;
     color: #c0c0c0; }
@@ -163,6 +165,7 @@ main {
     padding-bottom: 1rem; }
     main .sc4 h2 {
       color: #fff;
+      margin: 0 2rem;
       padding: 3rem 0;
       font-size: 2rem; }
     main .sc4 .container {
@@ -269,6 +272,7 @@ main {
         main .sc4 .container .box3 .st9 {
           grid-area: st9; }
   main .sc5 h2 {
+    margin: 0 2rem;
     padding: 3rem 0;
     font-size: 2rem;
     color: #c0c0c0; }
@@ -341,7 +345,8 @@ main {
   main .sc6 {
     background-color: #c0c0c0; }
     main .sc6 h2 {
-      color: #fff; }
+      color: #fff;
+      margin: 0 2rem; }
     main .sc6 .container {
       width: 100%;
       text-align: center; }
